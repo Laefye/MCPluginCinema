@@ -1,0 +1,25 @@
+name: PluginCinema
+version: '${version}'
+main: com.github.laefye.plugincinema.PluginCinema
+api-version: 1.19
+authors: [ Laefye ]
+commands:
+  play:
+    description: "Append in order"
+    aliases:
+      - youtube
+      - twitch
+  join:
+    description: "Join"
+  exit:
+    description: "Exit"
+  skip:
+    description: "Skip"
+  order:
+    description: "Order"
+  rewind:
+    description: "Rewind"
+  cinema:
+    description: "Get info about cinema"
+softdepend:
+  - WorldEdit
